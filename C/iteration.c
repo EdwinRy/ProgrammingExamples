@@ -20,7 +20,9 @@ int main()
     }
 
     //do while
-    //runs at least one and then loops back if the condition within while is true
+    //runs at least one and then loops back
+    //if the condition within while is true
+    
     do
     {
 

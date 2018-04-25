@@ -20,13 +20,18 @@ int main()
 
     //Examples
     char sampleCharacter = 'b'-1;
-    int sampleInteger = 5;
-    float sampleFloat = 5.5;
+    int sampleI = 5;
+    float sampleF = 5.5;
+
+    //Declaring multiple variables of the same type
+    float x,y,z;
 
     //Outputting variables
-    printf("Sample character: %c", sampleCharacter); //outputs "Sample character: a"
-    printf("Sample integer: %i"); //outputs "Sample integer: 5"
-    printf("Sample decimal: %f"); //outputs "Sample decimal: 5.500000"
+    printf("Sample character: %c\n", sampleCharacter); 
+    //outputs "Sample character: a"
+
+    printf("Sample integer: %i\n",sampleI); //outputs "Sample integer: 5"
+    printf("Sample decimal: %f\n",sampleF); //outputs "Sample decimal: 5.500000"
 
     //Constant variables
     const int anotherInteger = 5; //Can't change this value

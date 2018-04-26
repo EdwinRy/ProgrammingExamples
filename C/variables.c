@@ -1,3 +1,5 @@
+int globalVariable;
+
 int main()
 {
     //variable declaration: <type> <identifier> = <value>;
